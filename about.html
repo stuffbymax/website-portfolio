@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #fff; /* Changed text color to white */
+            padding-bottom: 60px; /* Adjusted padding to make space for the footer */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 9px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            filter: brightness(110%);
+            transform: scale(1.1);
+            box-shadow: 0px 0px 40px rgb(255, 255, 255);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 9px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure the footer appears above other elements */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 20px;
+            text-align: center; /* Center the text inside the container */
+        }
+        
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills-list li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .skills-list li span {
+            margin-right: 20px;
+            width: 100px;
+            font-weight: bold;
+        }
+        .skills-list li img {
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .skills-list li ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills-list li ul li {
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Me</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contct.html">Contact</a></li>
+        <li><a href="cv.html">CV</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Who I Am</h2>
+    <p>I am [Your Name], a passionate [Your Profession] based in [Your Location]. I specialize in [Your Specialization or Area of Expertise].</p>
+
+    <h2>My Background</h2>
+    <p>I have a [Your Degree] in [Your Field] from [Your University]. Over the years, I have gained experience working on various projects, both independently and as part of a team.</p>
+
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+        <li>
+            
+            <span>Technical Skills:</span>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <!-- Add more technical skills as needed -->
+            </ul>
+        </li>
+        <li>
+            
+            <span>Design Skills:</span>
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Sketch</li>
+                <li>Figma</li>
+                <!-- Add more design skills as needed -->
+            </ul>
+        </li>
+        <li>
+            
+            <span>Project Management:</span>
+            <ul>
+                <li>Agile</li>
+                <li>Scrum</li>
+                <li>JIRA</li>
+                <!-- Add more project management tools as needed -->
+            </ul>
+        </li>
+        <li>
+            
+            <span>Communication:</span>
+            <ul>
+                <li>Verbal and written communication</li>
+                <li>Client interaction</li>
+                <li>Team collaboration</li>
+                <!-- Add more communication skills as needed -->
+            </ul>
+        </li>
+        <!-- Add more skill categories as needed -->
+    </ul>
+
+    <h2>My Interests</h2>
+    <p>Outside of work, I enjoy [Your Interests or Hobbies]. I am always eager to learn new things and explore different areas of [Your Field or Industry].</p>
+
+    <h2>My Mission</h2>
+    <p>My mission is to [Your Mission Statement or Goals]. I am committed to delivering high-quality work and exceeding the expectations of my clients and collaborators.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #fff; /* Changed text color to white */
+            padding-bottom: 60px; /* Adjusted padding to make space for the footer */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 9px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            filter: brightness(110%);
+            transform: scale(1.1);
+            box-shadow: 0px 0px 40px rgb(255, 255, 255);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 9px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure the footer appears above other elements */
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .project {
+            margin-bottom: 40px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.4);
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .project-info {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .project-info h3 {
+            margin-top: 0;
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .project-info p {
+            color: #ddd;
+            font-size: 16px;
+        }
+        .project-info a {
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .project-info a:hover {
+            background-color: #555;
+        }
+        .project-container {
+            margin-bottom: 60px;
+        }
+        .project-container h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            color: #fff;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Projects</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contct.html">Contact</a></li>
+            <li><a href="cv.html">CV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <!-- Professional Projects -->
+        <div class="project-container">
+            <h2>Professional Projects</h2>
+            <div class="project" onclick="window.location.href='professional_project1.html';">
+                <img src="professional_project1.jpg" alt="Professional Project 1">
+                <div class="project-info">
+                    <h3>Professional Project 1</h3>
+                    <p>Description of the professional project goes here.</p>
+                    <p>Click to view</p>
+                </div>
+            </div>
+            <!-- Add more professional projects here -->
+        </div>
+    
+        <!-- Personal Projects -->
+        <div class="project-container">
+            <h2>Personal Projects</h2>
+            <div class="project" onclick="window.location.href='personal_project1.html';">
+                <img src="personal_project1.jpg" alt="Personal Project 1">
+                <div class="project-info">
+                    <h3>Personal Project 1</h3>
+                    <p>Description of the personal project goes here.</p>
+                    <p>Click to view</p>
+                </div>
+            </div>
+            <!-- Add more personal projects here -->
+        </div>
+    
+        <!-- Open Source Projects -->
+        <div class="project-container">
+            <h2>Open Source Projects</h2>
+            <div class="project" onclick="window.location.href='open_source_project1.html';">
+                <img src="open_source_project1.jpg" alt="Open Source Project 1">
+                <div class="project-info">
+                    <h3>Open Source Project 1</h3>
+                    <p>Description of the open source project goes here.</p>
+                    <p>Click to view</p>
+                </div>
+            </div>
+            <!-- Add more open source projects here -->
+        </div>
+    
+        <!-- Website Projects -->
+        <div class="project-container">
+            <h2>Website Projects</h2>
+            <div class="project" onclick="window.location.href='website_project1.html';">
+                <img src="website_project1.jpg" alt="Website Project 1">
+                <div class="project-info">
+                    <h3>Website Project 1</h3>
+                    <p>Description of the website project goes here.</p>
+                    <p>Click to view</p>
+                </div>
+            </div>
+            <!-- Add more website projects here -->
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+    
+    </body>
+    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #fff; /* Changed text color to white */
+            padding-bottom: 60px; /* Adjusted padding to make space for the footer */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 9px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            filter: brightness(110%);
+            transform: scale(1.1);
+            box-shadow: 0px 0px 40px rgb(255, 255, 255);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 9px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure the footer appears above other elements */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* About Me Styles */
+        .about-me {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+            text-align: center; /* Center the text */
+        }
+
+        .about-me h2 {
+            margin-top: 0;
+        }
+
+        .about-me p {
+            color: #ccc;
+        }
+
+        /* Logo Styles */
+        .logo img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+            transition: transform 0.3s, filter 0.3s;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+        }
+
+        .logo img:hover {
+            transform: scale(1.1);
+            filter: brightness(110%);
+            box-shadow: 0px 0px 40px rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+<body>
+<header>
+
+        <h1>HOME</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contct.html">Contact</a></li>
+        <li><a href="cv.html">CV</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is where I showcase my work and talents.</p>
+
+    <div class="logo">
+        <img src="../New folder/pictures/Designer.png" alt="Designer Logo">
+        <p>Feel free to explore!</p>
+    </div>
+    <br>
+    <br>
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>Hello! My name is [Your Name]. I'm a passionate [Your Profession] based in [Your Location]. I have a keen interest in [Your Interests], and I love to [Your Hobbies].</p>
+        <p>I currently work as a [Your Position] at [Your Company/Organization], where I specialize in [Your Specialization]. With a background in [Your Field], I have [Number of Years] years of experience.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
